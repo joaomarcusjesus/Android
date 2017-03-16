@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">JosiasAndroidEstagio_01</string>
+
+
+    <!-- LOGIN -->
+    <string name="texto_login">Login</string>
+    <string name="texto_senha">Senha</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_entrar">Entrar</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- MENU -->
+    <string name="texto_menu_01">João Marcus</string>
+
+</resources>
+
+
+
+
+
+

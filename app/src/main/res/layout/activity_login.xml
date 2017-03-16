@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="unipe.aula.com.josiasandroidestagio_01.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:tint="@color/colorAccent"
+        android:src="@drawable/logo"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:hint="@string/texto_login"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPassword"
+            android:hint="@string/texto_senha"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="left"
+        android:text="@string/btn_salvar"/>
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mudarTela"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="@string/btn_entrar"/>
+
+
+</LinearLayout>
